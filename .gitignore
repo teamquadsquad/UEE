@@ -11,9 +11,3 @@
 /build
 /captures
 .externalNativeBuild
-activity_account.xml
-activity_category.xml
-activity_dashboard.xml
-Account.java
-Category.java
-Dashboard.java

@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 public class Security extends AppCompatActivity {
 
-    Button security1, security2, security3, security4, security5, security6;
+    Button security1, security2, security3, security4, security5, security6, back, home, account;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,9 @@ public class Security extends AppCompatActivity {
         security4 = findViewById(R.id.security4);
         security5 = findViewById(R.id.security5);
         security6 = findViewById(R.id.security6);
+        back = findViewById(R.id.back);
+        home = findViewById(R.id.home);
+        account = findViewById(R.id.menu);
 
         security1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,6 +67,27 @@ public class Security extends AppCompatActivity {
                 openSecurity6();
             }
         });
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goBack();
+            }
+        });
+
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goHome();
+            }
+        });
+
+        account.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openAccount();
+            }
+        });
     }
 
     public void openSecurity1(){
@@ -93,6 +117,21 @@ public class Security extends AppCompatActivity {
 
     public void openSecurity6(){
         Intent intent = new Intent(this, Security6.class);
+        startActivity(intent);
+    }
+
+    public void goBack(){
+        Intent intent = new Intent(this, Security.class);
+        startActivity(intent);
+    }
+
+    public void goHome(){
+        Intent intent = new Intent(this, Dashboard.class);
+        startActivity(intent);
+    }
+
+    public void openAccount(){
+        Intent intent = new Intent(this, Account.class);
         startActivity(intent);
     }
 }
