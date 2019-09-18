@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".StorageContent_04_Activity">
+
+    <ImageView
+        android:id="@+id/actionbar_storage"
+        android:layout_width="413dp"
+        android:layout_height="106dp"
+        android:elevation="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/actionbar_storage" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="355dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="355dp"
+            android:layout_height="500dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/questionbg"
+            android:layout_width="355dp"
+            android:layout_height="500dp"
+            android:src="@drawable/frame"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="309dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="155dp"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:text="@string/storage_header_1"
+        android:textColor="@color/textPrimary"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_read"
+        android:layout_width="112dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/read_button"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:paddingRight="7dp"
+        android:text="@string/read_button"
+        android:textAlignment="textEnd"
+        android:textAllCaps="false"
+        android:textColor="@color/textdescription"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/frameLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="end" />
+
+    <ImageView
+        android:id="@+id/tick"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_read"
+        app:layout_constraintEnd_toEndOf="@+id/btn_read"
+        app:layout_constraintStart_toStartOf="@+id/btn_read"
+        app:layout_constraintTop_toTopOf="@+id/btn_read"
+        app:srcCompat="@drawable/mark_as_read" />
+
+    <ImageView
+        android:id="@+id/header_line"
+        android:layout_width="309dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header"
+        app:srcCompat="@drawable/header_line" />
+
+    <ScrollView
+        android:layout_width="307dp"
+        android:layout_height="370dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/header_line">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="@string/storage_content_01_text"
+                android:textColor="@color/textdescription"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="65dp"
+        android:elevation="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home" />
+
+    <ImageView
+        android:id="@+id/account"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="65dp"
+        android:elevation="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/account" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_marginEnd="345dp"
+        android:layout_marginRight="345dp"
+        android:layout_marginTop="65dp"
+        android:elevation="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,492 @@
+<resources>
+    <string name="app_name">Command</string>
+
+    <!--Dashboard-->
+    <string name="dashboard_learn">Learn</string>
+    <string name="dashboard_questions">Questions</string>
+    <string name="dashboard_progress">Progress</string>
+    <string name="dashboard_account">Account</string>
+
+    <string name="learn_description">These are our favorites and some of the ones we consider the most useful.</string>
+    <string name="questions_description">Check your knowledge by trying our quiz of 20 questions.</string>
+    <string name="progress_description">See how you improved your knowledge by the help of this application.</string>
+    <string name="account_description">Manage your account here.</string>
+
+    <!--Categories-->
+    <string name="categories_misc">Miscellaneous</string>
+    <string name="categories_security">Security</string>
+    <string name="categories_network">Network</string>
+    <string name="categories_storage">Storage</string>
+
+    <string name="misc_description">Basic and most useful CMD commands</string>
+    <string name="security_description">Essential CMD commands to ensure higher security</string>
+    <string name="network_description">Essential CMD commands related to computer networks</string>
+    <string name="storage_description">Essential CMD commands related to computer storage</string>
+
+    <!--experience_level-->
+    <string name="experience_level">Select your level of experience on CMD:</string>
+    <string name="beginner_header">Beginner Level</string>
+    <string name="intermediate_header">Intermediate Level</string>
+    <string name="advanced_header">Advanced Level</string>
+
+    <!--questions-->
+    <string name="total_questions">OF 3</string>
+    <string name="beginner_q_header">BEGINNER LEVEL</string>
+    <string name="intermediate_q_header">INTERMEDIATE LEVEL</string>
+    <string name="advanced_q_header">ADVANCED LEVEL</string>
+
+    <!--Beginner_Q1-->
+    <string name="q1">What is the correct command for creating an undeletable folder?</string>
+    <string name="q1_a1">mkdir con</string>
+    <string name="q1_a2">md con</string>
+    <string name="q1_a3">md config</string>
+    <string name="q1_a4">mkdir config</string>
+    <string name="q1_number">1</string>
+
+    <!--Beginner_Q2-->
+    <string name="q2">What will happen if you enter "list disk" command on cmd?</string>
+    <string name="q2_a1">PC will sleep</string>
+    <string name="q2_a2">Hard disk will be formatted</string>
+    <string name="q2_a3">List of disks will be shown</string>
+    <string name="q2_a4">The health of the hard disk will be shown</string>
+    <string name="q2_number">2</string>
+
+    <!--Beginner_Q3-->
+    <string name="q3">What needs to be done before creating a hotspot using cmd?</string>
+    <string name="q3_a1">Delete temp files</string>
+    <string name="q3_a2">Clear the clipboard</string>
+    <string name="q3_a3">Clear cache of the browser</string>
+    <string name="q3_a4">Allow other network users to connect through the internet connection of the computer</string>
+    <string name="q3_number">3</string>
+
+    <!--Learn_Misc-->
+    <string name="misc_header_1">Command Prompt Shortcuts</string>
+    <string name="misc_header_2">How to Create an Undeletable Folder</string>
+    <string name="misc_header_3">Get a Report on Your Laptop Battery</string>
+    <string name="misc_header_4">How to Navigate Through Directories</string>
+
+    <string name="misc_1_content">
+
+        In the Command Prompt, right-click on the title bar to open the options and click Properties.
+        \n\n
+        Under the Options tab, find the section Edit Options and check the box next to Enable Ctrl key shortcuts.
+        \n\n
+        Copy selected text to clipboard:\n
+        Ctrl + C / Ctrl + Insert
+        \n\n
+        Paste copied text: \n
+        Ctrl + V / Shift + Insert
+        \n\n
+        Select all text in the current line (if there is no text in the current line, all text in the Command Prompt will be selected):\n
+        Ctrl + A
+        \n\n
+        Move screen one line up/down (similar to scrolling):\n
+        Ctrl + Up/Down
+        \n\n
+        Move screen one page up/down:\n
+        Ctrl Page Up/Page Down
+        \n\n
+        Open Find window for searching through the Command Prompt:\n
+        Ctrl F
+        \n\n
+        Enter Mark Mode (lets you select text with the mouse):\n
+        Ctrl + M
+        \n\n
+        (In Mark Mode) Move cursor up, down, left, or right:\n
+        Up/Down/Left/Right
+        \n\n
+        Move cursor up/down one line and select text:\n
+        Shift+ Up/Down
+        \n\n
+        Move cursor left/right one character and select text:\n
+        Shift + Left/Right
+        \n\n
+        Move cursor left/right one word and select text:\n
+        Ctrl + Shift + Left/Right
+        \n\n
+        Move cursor up/down screen and select text:\n
+        Shift + Page Up/Page Down
+        \n\n
+        Move cursor to the beginning/end of current line and select text:\n
+        Shift + Home/End
+        \n\n
+        Move cursor to the beginning/end of screen buffer and select text and beginning/end of Command Prompt output:\n
+        Ctrl + Shift + Home/End
+    </string>
+
+    <string name="misc_2_content">
+        The basic concept behind this trick is the use of Keywords. Keywords are reserved words in any programming language that cannot be used as names of variables.
+        \n\n
+        Windows also uses certain keywords in its programming. Some of them are con, aux, Ipt1, Ipt2, Ipt3, Ipt 4, Ipt 5, Ipto, Ipt7, Ipt8 and Ipt9
+        \n\n
+        Open command prompt and change the root directory to location where you want to create an undeletable folder. For example,
+        \n\n
+        I want to create it in drive E. Now type following commands
+        \n\n
+        md con
+        \n\n
+        You can choose any keyword in place of con mentioned above. Now Windows will create an undeletable, unremovable folder in the drive you entered above.
+        \n\n
+        To Delete an undeletable folder, in command prompt, type
+        \n\n
+        rd con
+        \n\n
+        If it writes \the directory is not empty\' then type
+        \n\n
+        rd /S con
+        \n\n
+        Type Y.
+        \n\n
+        Now folder will successfully be deleted.
+    </string>
+
+    <string name="misc_3_content">
+        Open command prompt. And to check battery energy, type
+        \n\n
+        powercfg/energy
+        \n\n
+        It will take 60 seconds to generate an energy report of your battery.
+        \n\n
+        To access the energy report, press
+        \n\n
+        Windows+R and type the location given below and this will open the report in web browser.
+        \n\n
+        C:\windows\system32 \ energy-report.html
+        \n\n
+        To check battery report, type the command in command prompt
+        \n\n
+        powercfg/batteryreport
+        \n\n
+        To view the Battery Report, press Windows+R and type the following location. The report will be displayed in web browser.
+        \n\n
+        C:\windows\system32 \battery-report.html
+    </string>
+
+    <string name="misc_4_content">
+        Go to start menu and in the search box and type
+        \n\n
+        cmd
+        \n\n
+        Right click on command prompt icon and click on run as administrator.
+        \n\n
+        Press ok and your command prompt will operate successfully.
+        \n\n
+        To remove one path directory, just type cd..To add one directory, type cd followed by path\'s name like
+        \n\n
+        cd Users
+        \n\n
+        Note: Use cmd in run as administrator for command to operate successfully and always type command as it is so that it may not create any error.
+    </string>
+
+    <!--Learn_Security-->
+    <string name="security_header_1">
+        How to Create Recovery Images
+        \n\n
+        in Windows 8
+    </string>
+    <string name="security_header_2">How to Remove an Admin Password</string>
+    <string name="security_header_3">How to Remove a Pattern Lock</string>
+    <string name="security_header_4">How to Make Backup Files or Folders</string>
+    <string name="security_header_5">How to Encrypt Files for Safety</string>
+    <string name="security_header_6">How to Remove Virus</string>
+
+
+    <string name="security_1_content">
+
+        Create a destination folder for the custom image. For example, create a folder named "Refreshimage" on drive C.
+        \n\n
+        Open an elevated command prompt. To do this, follow these steps:
+        \n\n
+                On the Start page, type cmd, press and hold or right-click Command Prompt,
+        \n
+                and then tap or click Run as administrator.
+        \n\n
+        Type the following command, and then press Enter:
+        \n
+                recimg -CreateImage drive:\folder
+        \n\n
+        For example, if you create "C:\Refreshimage" in step 1, run the following command:
+        \n
+                Ctrl + A recimg -CreateImage C:\Refreshimage
+    </string>
+
+    <string name="security_2_content">
+        Open up an elevated Command Prompt.
+        \n\n
+        At the Command Prompt, type the below command and press Enter.
+        \n\n
+            net user Administrator *
+        \n\n
+        When you\’re prompted to type new password, just press Enter twice and
+        \n
+        it will remove your Windows administrator password.
+    </string>
+
+    <string name="security_3_content">
+        Make sure to set up ADB (Android Debug Bridge) on your computer.
+        \n
+        Download ADB files and drivers.
+        \n\n
+        You have enabled “USB DEBUGGING” on your phone.
+        \n
+        Go to Settings > Developer Option > USB debugging > Check the box.
+        \n\n
+        Now when you are done and sure that you are following the checklist, follow the given steps:
+        \n\n
+        (1) cable and make sure that you have an active pattern lock.
+        \n\n
+        (2) The SHIFT key and select “Open with Command Prompt”. The mentioned folder will be in Local Disk C.
+        \n\n
+            1. On the CMD window, type adb devices and then hit enter.
+        \n
+            2. Now type adb shell, then hit enter.
+        \n
+            3. The shell will open and after that type su ( superuser, you are now a root user).
+        \n
+            4. After entering, type rm/data/system/gesture.key then hit enter.
+        \n
+            5. Unplug your phone from PC and you are good to go.
+    </string>
+
+    <string name="security_4_content">
+        Open Command Prompt and type the command:
+        \n
+            ”  Robocopy  “ (or xcopy for windows xp users)
+        \n\n
+        Then give a Space and enter the source path (folder) followed by the destination
+        \n
+        path  (folder)
+        \n
+        i.e., robocopy “Path of the source folder” “Path of the destination folder” and press enter.
+        \n\n
+            Example : robocopy "F:\\desktop\\windows 8\\My Great Project"
+        \n
+            "D:\\Backup"
+    </string>
+
+    <string name="security_5_content">
+        Here is how to encrypt a certain folder on Windows 10:
+        \n\n
+            Right-click on the Command Prompt option and choose to run it as an administrator.
+        \n\n
+            If you want to apply changes to a certain folder, copy and paste the following
+        \n
+        into the Command Prompt window:
+        \n
+                cipher /e “here type the actual path of the folder you would like to encrypt”.
+        \n\n
+
+            If you want to apply encryption to a certain folder and all the files and subfolders it contains, here is the command you
+        \n
+        should use:
+        \n
+                cipher /e /s:”type the full path of the folder that is going to be encrypted”.
+        \n\n
+            Remember to press Enter after inputting one of the commands above.
+        \n\n
+            Close Command Prompt once you are done.
+        \n\n\n
+        How to encrypt a certain folder on Windows 10:
+        \n\n
+            Open an elevated Command Prompt window on your computer.
+        \n\n
+        Type the following:
+        \n
+        cipher /e “here input the full path of the file you want to encrypt”.
+        \n\n
+        Press Enter. Wait for the encryption process to finish and exit the Command
+        \n
+        Prompt window.
+    </string>
+
+    <string name="security_6_content">
+        Open Command Prompt from search and run as an administrator.
+        \n\n
+            Type: D: and press Enter.
+        \n\n
+            Type: attrib and press Enter.
+        \n
+        You\'ll see autorun.inf virus files listed.
+        \n\n
+        To remove the virus using CMD, type into your command prompt:
+        \n
+            attrib -r -a -s -h *.* and press Enter.
+        \n\n
+        This will remove the Read Only, Archive, System and hidden file attribute from all the files.
+        \n
+        (*.* for all the files with all different types of file extensions).
+        \n\n
+            Type: del autorun.inf and hit enter to
+        \n
+        delete the files.
+    </string>
+
+    <!--button text-->
+    <string name="question_button">Continue</string>
+    <string name="read_button">Mark As Read</string>
+	
+	<string name="storage_content_01_text">
+        Connect your write protected SD
+        card or USB drive to your
+        computer.\n\n
+
+        Open Command Prompt and
+        type the following commands
+        and hit Enter.\n\n
+
+        diskpart \n
+        listdisk \n\n
+
+        Here you\'ll be able to see a list
+        of storage media connected to
+        your computer. Notice your
+        disk number and type.\n\n
+
+        select disk 1\n\n
+
+        Type your own disk number.In
+        my case it is 1. Make sure you
+        enter the number correctly and
+        don\'t end up changing the
+        attributes  of your internal hard
+        drive. Now type the following
+        commands.\n\n
+
+        attributes disk\n
+        attributes disk clear readonly\n
+        exit\n\n
+
+        Now disk attributes will clear
+        and you will now get out of
+        the diskpart utility.\n\n
+
+        Now you are done with
+        disabling write protection in
+        your removable drive.
+
+    </string>
+
+    <string name="storage_header_1">Remove write protection</string>
+    <string name="storage_header_2">Hide a local disk drive</string>
+    <string name="storage_header_3">Make a back up of files and folders</string>
+    <string name="storage_header_4">Make any USB drive bootable </string>
+	
+	<!--Learn_Network-->
+    <string name="network_header_1">Create a wi-fi hotspot for others</string>
+    <string name="network_header_2">Wi-fi password of used network on PC</string>
+    <string name="network_header_3">Trace any friend IP address and know location </string>
+    <string name="network_header_4">How to find IP address of any website</string>
+	
+	<string name="network_1_content">
+
+To create Wi-Fi hotspot from the command \n
+prompt: Before opening the Command \n
+Prompt. Open Control Panel, \n
+Find Change adapter settings in the Network and Sharing option.\n
+Click on the connection you are using and \n
+click on Properties. \n\n\n
+
+        find the sharing tab and check the option \n
+"Allow other network users to connect \n
+through this computer\'s internet connection" \n\n
+
+        Open the Command Prompt with admin \n
+istrative privileges and enter the following \n
+command. In place of \'anmy\' you write \n
+hotspot name(any name) and in place of \n
+\'qwerty\' you write your own password. \n\n
+
+        netsh wlan set hostednetwork mode=allow \n
+ssid=and key qwerty \n\n
+
+        After it\'s enabled, enter to start wi-fi \n
+
+netsh wlan start hostednetwork
+    </string>
+
+
+    <string name="network_2_content">
+
+        If you are connecting to Wi-Fi networks \n
+with your computer, your operating system \n
+usually saves the passwords of the networks\n
+you are connected to.\n\n\n
+
+
+         first run a command prompt with\n
+ run as administrator.\n
+ Now type - netsh wlan show profiles\n\n
+
+In a list of networks, look for the\n
+network, you want the password of. \n
+Suppose I choose \'isro\' from\n
+my network list. \n
+Now type-\n
+netsh wlan show profiles isro key clear\n\n
+
+        Now in the list, where you find \n
+\'key content\' written, it is the password \n
+of that wifi network.\n
+
+
+    </string>
+
+    <string name="network_3_content">
+        First you got to find out the IP address of\n
+        that User.\n
+        To do so we will be not be using \'netstat\' \n
+        command in windows because this method\n
+        doesn\'t work nowadays. We can\'t find the \n
+        IP address of a facebook user using cmd\n
+        nowadays. \n\n
+        However there is other way round using two \n
+        websites.So we will be doing that.\n\n\n
+        Go to the site: blasze.com\n
+        There in the box you type any website\'s url.\n
+        Suppose I typed \'facebook.com\'. Now the\n
+        link information will be shown.\n\n
+        Copy the \'tracking link\' and make the\n
+        user(whose ip address you want to find)\n
+        access that link through chat or anything.\n\n
+        Once he clicks on that link, copy your \'access\n
+        code\' from link information, go back and\n
+        paste your access code in the box and enter.\n\n
+        You will see the information in \'access logs\'\n
+        little below. You will find his/her ip address\n
+        along will computer or phone details.See the\n
+        images below\n
+    </string>
+
+    <string name="network_32_content">
+The next step is to trace that user, using his\n
+IP address.To do so we will be using IP tracer\n
+service. Go to the below address and paste\n
+the IP address in the box.\n
+http://www.ip-adress.com\n
+/ip address to location/\n\n
+
+It will show you all the information about that\n
+user along with his ISP and a Location in the\n
+MAP However exact location is not shown.\n
+
+    </string>
+
+    <string name="network_4_content">
+Open command prompt and type either \'ping\n
+or \'tracert\' depending upon which command\n
+you are going to use, followed by URL of the\n
+website you want to ping. Like any one of\n
+following\n
+ping fossbytes.com\n
+tracert fossbytes.com\n\n
+
+Press Enter and wait for the ping results. The\n
+first line after your command should contain\n
+the desired IP address.\n
+
+    </string>
+
+    <!--experience_level-->
+    <string name="relative_header">Relative Progress</string>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#4500E6</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#343753</color>
+    <color name="white">#ffffff</color>
+    <color name="sub_bg">#404364</color>
+    <color name="textPrimary">#EBEBEB</color>
+    <color name="textSecondery">#7A7C8F</color>
+    <color name="textdescription">#A8A6C7</color>
+    <color name="beginner_radioButton">#00D2E9</color>
+    <color name="intermediate_radioButton">#17E3BA</color>
+    <color name="advanced_radioButton">#AC31E9</color>
+
+</resources>
