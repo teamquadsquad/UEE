@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.savindu.command">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".dashboard" />
+        <activity android:name=".categories" />
+        <activity android:name=".questions" />
+        <activity android:name=".b_question1" />
+        <activity android:name=".b_question2" />
+        <activity android:name=".b_question3" />
+        <activity android:name=".i_question1" />
+        <activity android:name=".i_question2" />
+        <activity android:name=".i_question3" />
+        <activity android:name=".a_question1" />
+        <activity android:name=".a_question2" />
+        <activity android:name=".a_question3" />
+        <activity android:name=".learnMisc1" />
+        <activity android:name=".learnMisk" />
+        <activity android:name=".learnMisc2" />
+        <activity android:name=".learnMisc3" />
+        <activity android:name=".learnMisc4"></activity>
+
+        <activity android:name=".StorageContent_04_Activity"></activity>
+        <activity android:name=".StorageContent_03_Activity"></activity>
+        <activity android:name=".StorageContent_02_Activity"></activity>
+        <activity android:name=".StorageActivity"></activity>
+        <activity android:name=".ExtrasActivity"></activity>
+        <activity android:name=".FacebookActivity"></activity>
+        <activity android:name=".YoutubeActivity"></activity>
+        <activity android:name=".GoogleActivity"></activity>
+        <activity android:name=".AccountActivity"></activity>
+        <activity android:name=".ChangeAvatarActivity"></activity>
+        <activity android:name=".StorageContent_01_Activity"></activity>
+
+        <activity android:name=".Security6" />
+        <activity android:name=".Security5" />
+        <activity android:name=".Security4" />
+        <activity android:name=".Security3" />
+        <activity android:name=".Security2" />
+        <activity android:name=".Security1" />
+        <activity android:name=".Security" />
+        <activity android:name=".SignUp" />
+		
+		<activity android:name=".Progress" />
+        <activity android:name=".activity_progressChart" />
+        <activity android:name=".activity_network_main" />
+        <activity android:name=".activity_network1" />
+        <activity android:name=".activity_relative_progress1" />
+        <activity android:name=".activity_network2" />
+        <activity android:name=".activity_network3" />
+        <activity android:name=".activity_network4" />
+        <activity android:name=".activity_relative_progress2" />
+        <activity android:name=".activity_relative_progress3" />
+        <activity android:name=".activity_relative_progress4" />
+        <activity android:name=".activity_progress_chatr_inter"></activity>
+    </application>
+
+</manifest>
